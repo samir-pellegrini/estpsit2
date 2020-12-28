@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: calcolodataTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.357 sec <<< FAILURE!
+calcolodataTest.testCalcolodata()  Time elapsed: 0.241 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Thu Jan 10 00:00:00 CET 1918> but was: <Tue Jan 11 00:00:00 CET 1916>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at calcolodataTest.testCalcolodata(calcolodataTest.java:49)
+
